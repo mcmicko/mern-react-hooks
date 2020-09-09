@@ -5,7 +5,7 @@ import { faCoffee } from "@fortawesome/free-solid-svg-icons";
 
 function Navbar() {
   return (
-    <nav class="navbar bg-dark">
+    <nav className="navbar bg-dark">
       <h1>
         <NavLink to="/">
           <FontAwesomeIcon icon={faCoffee} /> DevConnector
