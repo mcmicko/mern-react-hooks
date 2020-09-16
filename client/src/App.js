@@ -12,6 +12,8 @@ import Landing from "./components/layout/Landing";
 import Register from "./components/auth/Register";
 import Login from "./components/auth/Login";
 import Alert from "./components/layout/Alert";
+import Dashboard from "./components/dashboard/Dashboard";
+import PrivateRoute from "./components/routing/PrivateRoute";
 
 if (localStorage.token) setAuthToken(localStorage.token);
 
@@ -29,9 +31,8 @@ function App() {
             <Alert />
             <Switch>
               <Route exact path="/register" component={Register} />
-            </Switch>
-            <Switch>
               <Route exact path="/login" component={Login} />
+              <PrivateRoute exact path="/dasboard" component={Dashboard} />
             </Switch>
           </section>
         </React.Fragment>
