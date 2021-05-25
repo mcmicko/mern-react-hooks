@@ -1,6 +1,6 @@
 <h1>MERN Stack Front To Back</h1>
 
-<p>build an in depth full stack social network application using Node.js, Express, React, Redux and MongoDB along with ES6+. We will start with a blank text editor and end with a deployed full stack application. This course includes...</p>
+<p>build an in depth full stack social network application using Node.js, Express, React, Redux and MongoDB along with ES6+. We will start with a blank text editor and end with a deployed full stack application. This includes...</p>
 
 - Building an extensive backend API with Node.js & Express
 
